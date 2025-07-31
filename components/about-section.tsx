@@ -38,12 +38,12 @@ export default function AboutSection() {
             </div>
 
             {/* Selos de Certificação */}
-            <div className="absolute -bottom-6 -right-6 flex space-x-4">
+            <div className="absolute -bottom-6 -right-3 flex space-x-4">
               <div className="bg-white rounded-full p-4 shadow-lg">
                 <Image src="https://cdn-icons-png.flaticon.com/256/6294/6294076.png" alt="Certificado ABNT" width={60} height={60} />
               </div>
               <div className="bg-white rounded-full p-4 shadow-lg">
-                <Image src="https://transparencia.santarem.pa.gov.br/img/selo-diamante-2022.png" alt="Totalmente Segurado" width={60} height={60} />
+                <Image src="https://images.vexels.com/media/users/3/145869/isolated/lists/f7e86ad2d567941ec3916da31869506f-emblema-de-oferta-especial.png" alt="Totalmente Segurado" width={60} height={60} />
               </div>
             </div>
           </div>
