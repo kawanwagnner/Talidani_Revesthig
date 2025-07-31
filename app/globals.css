@@ -53,6 +53,7 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground;
   }
@@ -60,6 +61,7 @@
 
 /* Custom animations */
 @keyframes ping {
+
   75%,
   100% {
     transform: scale(2);
@@ -74,6 +76,10 @@
 /* Smooth scrolling */
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /* Custom gradient text */
