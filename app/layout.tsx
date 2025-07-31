@@ -8,13 +8,13 @@ import Footer from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Pr. Oscar - Limpeza, Revestimento e Impermeabilização Profissional | São Paulo",
+  title: "Talidani Revesthig - Limpeza, Revestimento e Impermeabilização Profissional | São Paulo",
   description:
     "Água 100% limpa e segura com garantia de 5 anos! Serviços especializados de limpeza de caixas d'água, revestimento epóxi e impermeabilização em São Paulo. Produtos certificados pela ABNT, equipe treinada e suporte emergencial 24h.",
   keywords:
     "limpeza de caixa d'água São Paulo, impermeabilização com garantia, revestimento epóxi, manutenção de caixa d'água, eliminação de bactérias, reparo de vazamentos, certificado ABNT",
   openGraph: {
-    title: "Water Tank Pro - Garantia de 5 Anos em Todos os Serviços",
+    title: "Talidani Revesthig - Garantia de 5 Anos em Todos os Serviços",
     description:
       "Serviços profissionais para caixas d'água que eliminam bactérias, previnem vazamentos e aumentam a durabilidade. Atendendo São Paulo com mais de 20 anos de experiência.",
     type: "website",
