@@ -36,7 +36,7 @@ const blogPosts = [
 
 export default function BlogSection() {
   return (
-    <section className="py-20 bg-white">
+    <section id="blog" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#002366] mb-4">Conhecimento e Dicas de Especialistas</h2>
@@ -105,7 +105,7 @@ export default function BlogSection() {
             </div>
 
             <div className="flex-1 text-left">
-              <h3 className="text-3xl font-bold mb-4">E-book Gratuito: Guia Completo de Manutenção de Caixas d'Água</h3>
+              <h3 className="text-3xl font-bold mb-4">Certificado de Garantia</h3>
               <p className="text-xl text-gray-200 mb-6">
                 Baixe nosso guia completo com 25 páginas de dicas profissionais, cronogramas de manutenção e soluções de problemas.
               </p>

@@ -16,7 +16,7 @@ const promises = [
   },
   {
     icon: Phone,
-    text: "Suporte emergencial 24 horas disponível",
+    text: "Suporte emergencial disponível",
   },
 ]
 
@@ -52,7 +52,7 @@ export default function AboutSection() {
           <div className="text-white space-y-8">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="text-[#00C4CC]">20+ Anos</span> Garantindo Água Pura para Sua Família
+                <span className="text-[#00C4CC]">15+ Anos</span> Garantindo Água Pura para Sua Família
               </h2>
               <p className="text-xl text-gray-300 leading-relaxed">
                 Somos a escolha de confiança para manutenção de caixas d’água em São Paulo, combinando décadas de experiência com tecnologia de ponta para entregar resultados incomparáveis.
@@ -75,7 +75,7 @@ export default function AboutSection() {
             <div className="pt-6">
               <div className="inline-flex items-center space-x-4 bg-white/10 backdrop-blur-sm rounded-full px-6 py-3">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-white font-semibold">Disponível 24/7 para emergências</span>
+                <span className="text-white font-semibold">Disponível para emergências</span>
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@ import { Phone, Menu, X, Droplets } from "lucide-react"
 import Link from "next/link"
 
 const navigation = [
-  { name: "Início", href: "/" },
+  { name: "Início", href: "#hero" },
   { name: "Serviços", href: "#services" },
   { name: "Galeria", href: "#gallery" },
   { name: "Sobre", href: "#about" },
@@ -71,7 +71,7 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <div className="text-right">
               <p className="text-sm text-gray-600">Ligue Agora</p>
-              <p className="text-lg font-bold text-[#002366]">(11) 99999-9999</p>
+              <p className="text-lg font-bold text-[#002366]">(11) 95456-6247</p>
             </div>
             <Button className="bg-gradient-to-r from-[#00C4CC] to-[#002366] hover:from-[#00A8B0] hover:to-[#001a4d] text-white px-6 py-2 rounded-full">
               <Phone className="w-4 h-4 mr-2" />
@@ -105,7 +105,7 @@ export default function Header() {
               <div className="px-4 pt-4 border-t border-gray-200">
                 <Button className="w-full bg-gradient-to-r from-[#00C4CC] to-[#002366] hover:from-[#00A8B0] hover:to-[#001a4d] text-white py-2 rounded-full">
                   <Phone className="w-4 h-4 mr-2" />
-                  (11) 99999-9999
+                  (11) 95456-6247
                 </Button>
               </div>
             </nav>

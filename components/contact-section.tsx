@@ -37,7 +37,7 @@ Mensagem: ${formData.message}`
   }
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#002366] mb-4">Solicite Seu Orçamento Gratuito Hoje</h2>
@@ -128,9 +128,8 @@ Mensagem: ${formData.message}`
                       <Phone className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-[#002366] mb-1">Telefone</h4>
-                      <p className="text-gray-600">(11) 99999-9999</p>
-                      <p className="text-gray-600">(11) 3333-3333</p>
+                      <h4 className="font-semibold text-[#002366] mb-1">WhatsApp</h4>
+                      <p className="text-gray-600">(11) 95456-6247</p>
                     </div>
                   </div>
 
@@ -140,7 +139,7 @@ Mensagem: ${formData.message}`
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#002366] mb-1">E-mail</h4>
-                      <p className="text-gray-600">contato@watertankpro.com.br</p>
+                      <p className="text-gray-600">oscarzerga@hotmail.com</p>
                     </div>
                   </div>
 
@@ -151,7 +150,7 @@ Mensagem: ${formData.message}`
                     <div>
                       <h4 className="font-semibold text-[#002366] mb-1">Área de Atendimento</h4>
                       <p className="text-gray-600">São Paulo e regiões próximas</p>
-                      <p className="text-gray-600">Cobertura em um raio de 50km</p>
+                      <p className="text-gray-600">Cobertura em um raio de 150km</p>
                     </div>
                   </div>
 
@@ -161,9 +160,9 @@ Mensagem: ${formData.message}`
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#002366] mb-1">Horário de Atendimento</h4>
-                      <p className="text-gray-600">Seg-Sex: 7:00 - 18:00</p>
-                      <p className="text-gray-600">Sáb: 8:00 - 16:00</p>
-                      <p className="text-red-600 font-semibold">Atendimento Emergencial 24h</p>
+                      <p className="text-gray-600">Seg-Sex: 08:00 - 17:00</p>
+                      <p className="text-gray-600">Sáb: 08:00 - 13:00</p>
+                      <p className="text-red-600 font-semibold">Atendimento Emergencial Disponível</p>
                     </div>
                   </div>
                 </div>
@@ -180,7 +179,7 @@ Mensagem: ${formData.message}`
                     <div className="text-center">
                       <MapPin className="w-12 h-12 text-[#00C4CC] mx-auto mb-2" />
                       <p className="text-[#002366] font-semibold">Região Metropolitana de São Paulo</p>
-                      <p className="text-gray-600">Cobertura em um raio de 50km</p>
+                      <p className="text-gray-600">Cobertura em um raio de 150km</p>
                     </div>
                   </div>
 
@@ -193,12 +192,12 @@ Mensagem: ${formData.message}`
                 <div className="mt-4 text-sm text-gray-600">
                   <p className="mb-2">Atendemos com orgulho:</p>
                   <div className="grid grid-cols-2 gap-2">
-                    <p>• Vila Madalena</p>
-                    <p>• Moema</p>
-                    <p>• Pinheiros</p>
-                    <p>• Brooklin</p>
-                    <p>• Itaim Bibi</p>
-                    <p>• Jardins</p>
+                    <p>• Santo André</p>
+                    <p>• São Bernardo</p>
+                    <p>• São Caetano</p>
+                    <p>• Baixada Santista</p>
+                    <p>• Praia Grande</p>
+                    <p>• Guarujá</p>
                   </div>
                   <p className="mt-2 text-[#00C4CC] font-semibold">+ Muitas outras localidades</p>
                 </div>

@@ -12,7 +12,7 @@ const services = [
     id: "cleaning",
     icon: Droplets,
     title: "Limpeza Profissional",
-    subtitle: "Higienização com padrão hospitalar",
+    subtitle: "Limpeza e Higienização em Reservatórios de Água Potável",
     description: "Remoção completa de lodo, bactérias e detritos utilizando equipamentos avançados",
     image: "https://www.universoambiental.eco.br/images/1602294481-limpeza%20de%20reservat%C3%B3rio%20de%20%C3%A1gua-min.jpg",
     details: {
@@ -35,25 +35,24 @@ const services = [
   {
     id: "coating",
     icon: Shield,
-    title: "Revestimento Protetor em Epóxi",
-    subtitle: "Proteção avançada contra corrosão",
-    description: "Revestimento de nível industrial que protege contra corrosão e contaminação",
+    title: "Revestimento Higiênico",
+    subtitle: "Proteção na parede do reservatório dando-lhe mais Vida útil",
+    description: "Revestimento com Âncoragem Retirando o Contato da Água com a Parede",
     image: "https://oicramengenharia.com.br/wp-content/uploads/2023/09/Impermeabilizacao-Caixa-Dagua-1-e1695061212774.jpg",
     details: {
       process: [
         "Preparação e limpeza da superfície",
-        "Aplicação de primer para melhor aderência",
-        "Sistema de revestimento epóxi em múltiplas camadas",
-        "Controle de qualidade e verificação da cura",
+        "Âncoragem",
+        "Sistema de aplicação do revestimento higiênico no local com solda, segundo o tamanho.",
+        "Controle de qualidade verificando a aderência do revestimento",
       ],
       benefits: [
-        "Previne ferrugem e corrosão",
-        "Cria uma superfície antimicrobiana",
-        "Aumenta a vida útil da caixa em mais de 15 anos",
-        "Reduz custos de manutenção",
+        "A Água não tem contato com a parede",
+        "Mantém a qualidade da água potável",
+        "Aumenta a vida útil da caixa",
       ],
-      duration: "2-3 dias",
-      warranty: "5 anos",
+      duration: "1-2 dias",
+      warranty: "1 ano",
     },
   },
   {
@@ -67,8 +66,8 @@ const services = [
       process: [
         "Detecção de vazamentos e avaliação estrutural",
         "Reparo de trincas estruturais",
-        "Instalação de membrana impermeabilizante",
-        "Teste de pressão e validação",
+        "Havendo necessidade, proteção mecânica",
+        "Teste de estanqueidade e validação",
       ],
       benefits: [
         "Elimina todos os vazamentos de água",
@@ -86,7 +85,7 @@ export default function ServicesSection() {
   const [selectedService, setSelectedService] = useState<(typeof services)[0] | null>(null)
 
   return (
-    <section className="py-20 bg-white">
+    <section id="services" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#002366] mb-4">

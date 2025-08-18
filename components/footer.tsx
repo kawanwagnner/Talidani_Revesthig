@@ -88,7 +88,7 @@ export default function Footer() {
                 <span className="text-gray-300">Limpeza Profissional</span>
               </li>
               <li>
-                <span className="text-gray-300">Revestimento Epóxi</span>
+                <span className="text-gray-300">Revestimento Higiênico</span>
               </li>
               <li>
                 <span className="text-gray-300">Impermeabilização</span>
@@ -112,15 +112,15 @@ export default function Footer() {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-[#00C4CC] mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">(11) 99999-9999</p>
-                  <p className="text-gray-300 text-sm">Emergencial 24h</p>
+                  <p className="font-semibold">(11) 95456-6247</p>
+                  <p className="text-gray-300 text-sm">Emergencial Disponível</p>
                 </div>
               </div>
 
               <div className="flex items-start space-x-3">
                 <Mail className="w-5 h-5 text-[#00C4CC] mt-1 flex-shrink-0" />
                 <div>
-                  <p className="font-semibold">contato@watertankpro.com.br</p>
+                  <p className="font-semibold">oscarzerga@hotmail.com</p>
                   <p className="text-gray-300 text-sm">Resposta Rápida</p>
                 </div>
               </div>
@@ -129,7 +129,7 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-[#00C4CC] mt-1 flex-shrink-0" />
                 <div>
                   <p className="font-semibold">São Paulo e Região</p>
-                  <p className="text-gray-300 text-sm">Cobertura em 50km</p>
+                  <p className="text-gray-300 text-sm">Cobertura em 150km</p>
                 </div>
               </div>
 
@@ -150,8 +150,8 @@ export default function Footer() {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
-              <p className="text-gray-300">© {new Date().getFullYear()} Water Tank Pro. Todos os direitos reservados.</p>
-              <p className="text-sm text-gray-400">CNPJ: 12.345.678/0001-90 | Empresa Licenciada e Segurada</p>
+              <p className="text-gray-300">© {new Date().getFullYear()} Talidani Revesthig. Todos os direitos reservados.</p>
+              <p className="text-sm text-gray-400">CNPJ: 67.596.601/0001-80 | Empresa Licenciada e Segurada</p>
             </div>
 
             <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-6">
@@ -163,7 +163,7 @@ export default function Footer() {
               </Link>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-sm text-gray-300">Disponível 24/7</span>
+                <span className="text-sm text-gray-300">Disponível Emergencial</span>
               </div>
             </div>
           </div>

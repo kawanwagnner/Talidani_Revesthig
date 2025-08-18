@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
-import { ChevronLeft, ChevronRight, Phone, Eye, Check } from "lucide-react"
+import { Phone, Eye, Check } from "lucide-react"
 import Image from "next/image"
 
 const heroImages = [
@@ -17,7 +17,7 @@ const heroImages = [
   },
   {
     image: "/water-box.png",
-    title: "Impermeabilização Premium",
+    title: "Impermeabilização",
     features: [
       "Garantia de 5 anos",
       "Materiais de alta qualidade",
@@ -26,7 +26,7 @@ const heroImages = [
   },
   {
     image: "/water-box.png",
-    title: "Revestimento Protetor",
+    title: "Revestimento higiênico",
     features: [
       "Aumenta vida útil da caixa",
       "Proteção contra corrosão",
@@ -126,6 +126,7 @@ export default function HeroSection() {
 
   return (
     <section
+      id="hero"
       className="relative h-screen overflow-hidden"
       ref={sliderRef}
       onTouchStart={handleTouchStart}
