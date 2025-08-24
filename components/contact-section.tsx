@@ -21,14 +21,14 @@ export default function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Gerar mensagem para WhatsApp
-    const whatsappMessage = `Olá! Gostaria de solicitar um orçamento:
-    
+    const whatsappMessage = `Olá vim pelo site! Gostaria de solicitar um orçamento:
+
 Nome: ${formData.name}
 Telefone: ${formData.phone}
 Serviço: ${formData.service}
 Mensagem: ${formData.message}`
 
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(whatsappMessage)}`
+  const whatsappUrl = `https://wa.me/5511954566247?text=${encodeURIComponent(whatsappMessage)}`
     window.open(whatsappUrl, "_blank")
   }
 

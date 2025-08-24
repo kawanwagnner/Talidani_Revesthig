@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Footer() {
   const handleWhatsAppClick = () => {
-    const message = "Olá! Gostaria de mais informações sobre os serviços."
+    const message = "Olá vim pelo site! Gostaria de mais informações sobre os serviços."
     const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
